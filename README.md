@@ -22,6 +22,8 @@ One more example that filters on date, state, and UFO shape.
 ![Filter by Date, State, and Shape](./static/images/date-state-shape.png) 
 
 ## Recommendations for Improvement
+One drawback of this page is that it does not convert inputs or the data to common a common format (e.g. common case for text, common format for date) and as a result if someone enters "NJ" for New Jersey, the filter will provide no results.  
+
 There are a number of improvements that could be made to enhance the usability of this page:
 - Provide a means to filter by partial date, such as by year, month, or day to allow users to find patterns in timing.
 - Prior to filtering, convert all text to the same case (upper or lower) to eliminate the risk of a failed match due to differing case.
